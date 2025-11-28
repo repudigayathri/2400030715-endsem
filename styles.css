@@ -1,0 +1,44 @@
+/* Global Light/Dark Themes */
+.light-mode {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Page container */
+.container {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Theme Toggle Button */
+.toggle-btn {
+  background-color: #0066ff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.toggle-btn:hover {
+  opacity: 0.9;
+}
+
+/* Card Components */
+.card {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* Change card style for dark mode */
+.dark .card {
+  background: rgba(255, 255, 255, 0.1);
+}
